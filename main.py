@@ -36,8 +36,6 @@ while True:
     account_typed = input('Digite sua conta: ')
     password_typed = getpass.getpass('Digite sua senha: ')
 
-  
-
     if account_typed in accounts_list and password_typed == accounts_list[account_typed]['password']:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("***************************************")
